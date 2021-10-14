@@ -142,7 +142,7 @@ def set_selenium_local_session(
     # Apple iPhone X:      375, 812
     # Apple iPhone XS Max: 414, 896
     try:
-        browser.set_window_size(414, 896)
+        browser.set_window_size(375, 896)
     except UnexpectedAlertPresentException as exc:
         logger.exception(
             "Unexpected alert on resizing web browser!\n\t"
